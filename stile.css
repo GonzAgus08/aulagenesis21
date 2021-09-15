@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo 2', cursive;
+}
+
+body{
+    background-image:url(fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav{
+    position: fixed;
+    background-color: #3c6b8c;
+    width: 100%;
+    z-index: 2000;
+}
+
+.nav__li{
+    display: inline-block;
+}
+
+.nav__li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+i{
+    color: rgb(0,0,0);
+    padding: 10px 8px
+}
+
+.nav__li:hover > a{
+    color: rgb(190, 188, 188);
+}
+
+.nav__li:hover > i{
+    color: rgb(190, 188, 188);
+}
+
+.nav__h1{
+    position: fixed;
+    display: inline-block;
+    left: 420px;
+}
+
+.nav__title{
+    font-size: 18px;
+    color: rgb(110, 17, 17);
+    font-family: 'Indie Flower', cursive;
+    font-weight:900;
+}
+
+.imagen{
+    width: 150px;
+    height: 150px;
+    box-shadow:3px 3px 5px #000;
+    border-radius: 40%;
+}
+
+.img__container{
+    margin-bottom: 20px;
+}
+
+.p{
+    display: inline-block;
+    font-size: 30px;
+}
+
+.h1{
+    display: inline-block;
+}
+
+
+.divs__container{
+    display: inline-block;
+    position: absolute;
+    margin: 70px;
+    text-align: center;
+    left: 167px;
+    color: rgb(100, 15, 15);
+    font-family: 'Patrick Hand', cursive;
+    width: 50%;
+    text-align: center;
+}
+
+.div__cuerpo{
+    background-color: #0c6c8c5b;
+    box-shadow:5px 5px 10px #20758f;
+    border-radius: 3%;
+    color: rgb(56, 56, 56);
+    transition: 1s;
+    padding: 17px 26px;
+    
+    
+}
+
+.double__container:hover>.div__cuerpo{
+    padding: 27px 36px;
+    text-align: left;
+    background-color: #0c6c8cab;
+    border-radius: 5%;
+    color: #000;
+    border: 3px solid #0c6c8c;
+    box-shadow: none;
+    font-size: 17px;
+}
+.double__container{
+    display: inline-block;
+    position: absolute;
+    margin-top: 275px;
+    padding: 17px 26px;
+    text-align: left;
+    width: 50%;
+    left: 39vh;
+    top: 30px;
+    transition: 1s;
+}
+
+.double__container:hover{
+    display: inline-block;
+    position: absolute;
+    margin-top: 275px;
+    padding: 17px 26px;
+    text-align: left;
+    width: 61%;
+    left: 30vh;
+    top: 30px;
+}
+
+.imagen:active{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
