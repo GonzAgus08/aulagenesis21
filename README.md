@@ -1,2 +1,6 @@
 # aulagenesis21
-html
+pagina web
+
+-html
+-css
+conexion a sql con python usando Flask
